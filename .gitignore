@@ -1,0 +1,62 @@
+## .NET
+*.user
+*.suo
+*.vs
+.vs/
+bin/
+obj/
+out/
+.idea/
+.vscode/
+*.swp
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+## Entity Framework migrations (keep the folder, ignore the snapshot files if desired)
+# Uncomment below to ignore migration snapshots (not recommended for team projects)
+# **/Migrations/*.Designer.cs
+
+## Test
+TestResult.xml
+coverage*.xml
+*.trx
+*.coverage
+*.coveragexml
+
+## Docker
+.dockerignore
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Secrets — NEVER commit these
+secrets.json
+*.pfx
+*.p12
+appsettings.Local.json
+appsettings.*.Local.json
+
+## Claude Code
+CLAUDE.md
