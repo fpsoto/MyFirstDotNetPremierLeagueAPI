@@ -145,11 +145,25 @@ The `DatabaseSeeder` is idempotent — it checks for existing data before seedin
 
 ### Local Development (SQL Server)
 
+## Clone and restore
+
+You can clone the repository using either HTTPS or SSH.
+
+### Clone with HTTPS
+
 ```bash
-# Clone and restore
-git clone https://github.com/your-username/premier-league-api.git
-cd premier-league-api
+git clone https://github.com/fpsoto/MyFirstDotNetPremierLeagueAPI.git
+cd MyFirstDotNetPremierLeagueAPI
 dotnet restore
+```
+
+### Clone with SSH
+
+```bash
+git clone git@github.com:fpsoto/MyFirstDotNetPremierLeagueAPI.git
+cd MyFirstDotNetPremierLeagueAPI
+dotnet restore
+```
 
 # Set your connection string in appsettings.Development.json
 # (already configured for localhost with Windows Auth)
